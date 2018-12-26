@@ -16,9 +16,4 @@ namespace MvcMovie.Models
         public DateTime Year { get; set; }
         public double Price { get; set; }
     }
-
-    public class CarDBContext : DbContext
-    {
-        public DbSet<Car> Cars { get; set; }
-    }
 }

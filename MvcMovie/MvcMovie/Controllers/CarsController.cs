@@ -8,7 +8,7 @@ namespace MvcMovie.Controllers
 {
     public class CarsController : Controller
     {
-        private CarDBContext db = new CarDBContext();
+        private MovieDBContext db = new MovieDBContext();
 
         public ActionResult Index()
         {
