@@ -3,6 +3,7 @@ using System.Linq;
 using System.Net;
 using System.Web.Mvc;
 using MvcMovie.Models;
+using MvcMovie.DataAccess;
 
 namespace MvcMovie.Controllers
 {

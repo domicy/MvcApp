@@ -1,4 +1,5 @@
 ﻿using MvcMovie.Models;
+using MvcMovie.DataAccess;
 using System.Linq;
 using System.Web.Mvc;
 using System.Data.Entity;
