@@ -6,6 +6,8 @@ namespace MvcMovie.Models
     public class Activity
     {
         public int ID { get; set; }
+        public int CarId { get; set; }
+        public int ServiceId { get; set; }
 
         [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString = "{0:d}", ApplyFormatInEditMode = true)]

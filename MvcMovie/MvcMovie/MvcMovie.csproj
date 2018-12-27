@@ -136,6 +136,7 @@
     <Compile Include="Controllers\HelloWorldController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MoviesController.cs" />
+    <Compile Include="DataAccess\GarageInitializer.cs" />
     <Compile Include="DataAccess\MovieDBContext.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -160,10 +161,15 @@
     <Compile Include="Migrations\201812271923526_DataAnnotations.Designer.cs">
       <DependentUpon>201812271923526_DataAnnotations.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201812272045280_UpdateActivities.cs" />
+    <Compile Include="Migrations\201812272045280_UpdateActivities.Designer.cs">
+      <DependentUpon>201812272045280_UpdateActivities.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Car.cs" />
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Models\Activity.cs" />
+    <Compile Include="Models\Service.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -247,6 +253,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201812271923526_DataAnnotations.resx">
       <DependentUpon>201812271923526_DataAnnotations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812272045280_UpdateActivities.resx">
+      <DependentUpon>201812272045280_UpdateActivities.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
