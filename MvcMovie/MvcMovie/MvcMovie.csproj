@@ -152,6 +152,10 @@
     <Compile Include="Migrations\201812270023514_AddUser.Designer.cs">
       <DependentUpon>201812270023514_AddUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201812271911418_Rating.cs" />
+    <Compile Include="Migrations\201812271911418_Rating.Designer.cs">
+      <DependentUpon>201812271911418_Rating.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Car.cs" />
     <Compile Include="Models\Movie.cs" />
@@ -233,6 +237,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201812270023514_AddUser.resx">
       <DependentUpon>201812270023514_AddUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812271911418_Rating.resx">
+      <DependentUpon>201812271911418_Rating.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
