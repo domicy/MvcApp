@@ -15,5 +15,8 @@ namespace MvcMovie.Models
         public string Description { get; set; }
         public double Cost { get; set; }
         public int Odometer { get; set; }
+
+        public virtual Car Car { get; set; }
+        public virtual Service Service { get; set; }
     }
 }

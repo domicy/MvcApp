@@ -165,6 +165,10 @@
     <Compile Include="Migrations\201812272045280_UpdateActivities.Designer.cs">
       <DependentUpon>201812272045280_UpdateActivities.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201812272139469_AddService.cs" />
+    <Compile Include="Migrations\201812272139469_AddService.Designer.cs">
+      <DependentUpon>201812272139469_AddService.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Car.cs" />
     <Compile Include="Models\Movie.cs" />
@@ -256,6 +260,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201812272045280_UpdateActivities.resx">
       <DependentUpon>201812272045280_UpdateActivities.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812272139469_AddService.resx">
+      <DependentUpon>201812272139469_AddService.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

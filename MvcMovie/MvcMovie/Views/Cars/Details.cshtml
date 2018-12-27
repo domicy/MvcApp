@@ -42,6 +42,40 @@
             @Html.DisplayFor(model => model.Year)
         </dd>
 
+        <dt>
+            @Html.DisplayNameFor(model => model.Activities)
+        </dt>
+        <dd>
+            <table class="table">
+                <tr>
+                    <th>Date</th>
+                    <th>Service</th>
+                    <th>Cost</th>
+                    <th>Odometer</th>
+                    <th>Description</th>
+                </tr>
+                @foreach (var item in Model.Activities)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Date)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Service.Name)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Cost)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Odometer)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Description)
+                        </td>
+                    </tr>
+                }
+            </table>
+        </dd>
     </dl>
 </div>
 <p>
