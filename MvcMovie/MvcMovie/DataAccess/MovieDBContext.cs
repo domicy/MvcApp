@@ -7,5 +7,6 @@ namespace MvcMovie.DataAccess
     {
         public DbSet<Movie> Movies { get; set; }
         public DbSet<Car> Cars { get; set; }
+        public DbSet<Activity> Activities { get; set; }
     }
 }

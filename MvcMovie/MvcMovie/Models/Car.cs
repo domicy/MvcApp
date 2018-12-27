@@ -1,5 +1,4 @@
-﻿using System;
-using System.ComponentModel.DataAnnotations;
+﻿using System.Collections.Generic;
 
 namespace MvcMovie.Models
 {
@@ -9,10 +8,10 @@ namespace MvcMovie.Models
         public string Vin { get; set; }
         public string Make { get; set; }
         public string Model { get; set; }
-
-        [DataType(DataType.Date)]
-        [DisplayFormat(DataFormatString = "{0:yyyy}", ApplyFormatInEditMode = true)]
-        public DateTime Year { get; set; }
+        public int Year { get; set; }
+        public int ?Month { get; set; }
         public double Price { get; set; }
+
+        public virtual List<Activity> Maintenances { get; set; }
     }
 }

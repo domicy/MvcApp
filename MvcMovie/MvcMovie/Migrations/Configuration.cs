@@ -1,5 +1,3 @@
-using MvcMovie.DataAccess;
-
 namespace MvcMovie.Migrations
 {
     using System;
@@ -7,15 +5,15 @@ namespace MvcMovie.Migrations
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<MovieDBContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<MvcMovie.DataAccess.MovieDBContext>
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = true;
-            ContextKey = "MvcMovie.Models.MovieDBContext";
+            AutomaticMigrationsEnabled = false;
+            ContextKey = "MvcMovie.DataAccess.MovieDBContext";
         }
 
-        protected override void Seed(MovieDBContext context)
+        protected override void Seed(MvcMovie.DataAccess.MovieDBContext context)
         {
             //  This method will be called after migrating to the latest version.
 
