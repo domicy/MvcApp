@@ -144,10 +144,15 @@
     <Compile Include="Migrations\201812270006243_InitialCreate.Designer.cs">
       <DependentUpon>201812270006243_InitialCreate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201812270013530_RemoveVehiclePrice.cs" />
+    <Compile Include="Migrations\201812270013530_RemoveVehiclePrice.Designer.cs">
+      <DependentUpon>201812270013530_RemoveVehiclePrice.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Car.cs" />
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Models\Activity.cs" />
+    <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -218,6 +223,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201812270006243_InitialCreate.resx">
       <DependentUpon>201812270006243_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812270013530_RemoveVehiclePrice.resx">
+      <DependentUpon>201812270013530_RemoveVehiclePrice.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

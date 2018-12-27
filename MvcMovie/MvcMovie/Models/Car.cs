@@ -10,7 +10,6 @@ namespace MvcMovie.Models
         public string Model { get; set; }
         public int Year { get; set; }
         public int ?Month { get; set; }
-        public double Price { get; set; }
 
         public virtual List<Activity> Maintenances { get; set; }
     }
