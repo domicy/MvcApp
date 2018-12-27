@@ -148,6 +148,10 @@
     <Compile Include="Migrations\201812270013530_RemoveVehiclePrice.Designer.cs">
       <DependentUpon>201812270013530_RemoveVehiclePrice.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201812270023514_AddUser.cs" />
+    <Compile Include="Migrations\201812270023514_AddUser.Designer.cs">
+      <DependentUpon>201812270023514_AddUser.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Car.cs" />
     <Compile Include="Models\Movie.cs" />
@@ -226,6 +230,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201812270013530_RemoveVehiclePrice.resx">
       <DependentUpon>201812270013530_RemoveVehiclePrice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812270023514_AddUser.resx">
+      <DependentUpon>201812270023514_AddUser.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
